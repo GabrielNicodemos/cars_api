@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+
+# Django
+db.sqlite3
+*.log
+
+# Docker
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.pid.lock.*
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.*
+celerybeat.pid.lock
+celerybeat.pid.lock.*
+
+# Docker Compose
+docker-compose.override.yml
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code files
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
